@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --color-primary: #0891B2;
+  --color-primary-hover: #0e7490;
+  --color-ice: #F8FAFC;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #F8FAFC;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+}
+
+/* Custom smooth scroll & selection */
+::selection {
+  background-color: #0891B2;
+  color: white;
+}
